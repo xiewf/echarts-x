@@ -16,7 +16,12 @@ define(function (require) {
         this.chart = chart;
     };
 
-   MarkerBase.prototype.setSeries = function (series, seriesIndex) {};
+    /**
+     * Set marker series and prepare the geometry data
+     * @param {Object} series
+     * @param {number} seriesIndex
+     */
+    MarkerBase.prototype.setSeries = function (series, seriesIndex) {};   
 
     /**
      * Clear marker geometry data
